@@ -1,0 +1,6 @@
+# Terraform local cache
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+crash.log

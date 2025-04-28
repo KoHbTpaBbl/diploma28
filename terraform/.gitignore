@@ -1,0 +1,10 @@
+# Ignore Terraform’s local state and plugin cache
+terraform/.terraform/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
